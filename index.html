@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Advice generator app</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div
+      class="min-h-screen flex flex-col justify-center bg-darkBlue items-center"
+    >
+      <div
+        class="relative rounded-xl flex flex-col bg-darkGrayishBlue px-8 pt-12 pb-24 space-y-8 md:px-12"
+      >
+        <p
+          class="text-neonGreen uppercase font-sans tracking-[.2rem] text-center"
+        >
+          advice <span id="id-text">#3</span>
+        </p>
+        <p
+          id="advice-text"
+          class="text-lightCyan text-center text-4xl max-w-lg md:max-w-[37rem]"
+        >
+          "It is easy to sit up and take notice, what's difficult is getting up
+          and taking action."
+        </p>
+        <img src="images/pattern-divider-mobile.svg" />
+        <div
+          id="dice"
+          class="absolute py-6 px-6 rounded-full bg-neonGreen -bottom-11 max-w-fit left-1/2 -translate-x-1/2 hover:shadow-2xl hover:shadow-neonGreen"
+        >
+          <img src="images/icon-dice.svg" alt="" class="w-12" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
